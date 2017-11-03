@@ -59,7 +59,7 @@ NS_ASSUME_NONNULL_BEGIN
      NSValue *frameValue = [view performSelectorWithArgs:@selector(frame)];
      CGRect frame = frameValue.CGRectValue;
  */
-- (nullable id)performSelectorWithArgs:(SEL)sel, ...;
+//- (nullable id)performSelectorWithArgs:(SEL)sel, ...;
 
 /**
  Invokes a method of the receiver on the current thread using the default mode after a delay.
@@ -86,7 +86,7 @@ NS_ASSUME_NONNULL_BEGIN
      // variable arg is not object
      [view performSelectorWithArgs:@selector(setCenter:), afterDelay:0, CGPointMake(0, 0)];
  */
-- (void)performSelectorWithArgs:(SEL)sel afterDelay:(NSTimeInterval)delay, ...;
+//- (void)performSelectorWithArgs:(SEL)sel afterDelay:(NSTimeInterval)delay, ...;
 
 /**
  Invokes a method of the receiver on the main thread using the default mode.
@@ -118,7 +118,7 @@ NS_ASSUME_NONNULL_BEGIN
      // variable arg is not object
      [view performSelectorWithArgsOnMainThread:@selector(setCenter:), waitUntilDone:NO, CGPointMake(0, 0)];
  */
-- (nullable id)performSelectorWithArgsOnMainThread:(SEL)sel waitUntilDone:(BOOL)wait, ...;
+//- (nullable id)performSelectorWithArgsOnMainThread:(SEL)sel waitUntilDone:(BOOL)wait, ...;
 
 /**
  Invokes a method of the receiver on the specified thread using the default mode.
@@ -154,7 +154,7 @@ NS_ASSUME_NONNULL_BEGIN
          return [num2 compare:num2];
      }];
  */
-- (nullable id)performSelectorWithArgs:(SEL)sel onThread:(NSThread *)thread waitUntilDone:(BOOL)wait, ...;
+//- (nullable id)performSelectorWithArgs:(SEL)sel onThread:(NSThread *)thread waitUntilDone:(BOOL)wait, ...;
 
 /**
  Invokes a method of the receiver on a new background thread.
@@ -178,7 +178,7 @@ NS_ASSUME_NONNULL_BEGIN
         return [num2 compare:num2];
      }];
  */
-- (void)performSelectorWithArgsInBackground:(SEL)sel, ...;
+//- (void)performSelectorWithArgsInBackground:(SEL)sel, ...;
 
 /**
  Invokes a method of the receiver on the current thread after a delay.

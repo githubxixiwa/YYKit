@@ -36,37 +36,37 @@ va_start(args, _last_arg_); \
 [NSObject setInv:inv withSig:sig andArgs:args]; \
 va_end(args);
 
-- (id)performSelectorWithArgs:(SEL)sel, ...{
-    INIT_INV(sel, nil);
-    [inv invoke];
-    return [NSObject getReturnFromInv:inv withSig:sig];
-}
+//- (id)performSelectorWithArgs:(SEL)sel, ...{
+//    INIT_INV(sel, nil);
+//    [inv invoke];
+//    return [NSObject getReturnFromInv:inv withSig:sig];
+//}
 
-- (void)performSelectorWithArgs:(SEL)sel afterDelay:(NSTimeInterval)delay, ...{
-    INIT_INV(delay, );
-    [inv retainArguments];
-    [inv performSelector:@selector(invoke) withObject:nil afterDelay:delay];
-}
+//- (void)performSelectorWithArgs:(SEL)sel afterDelay:(NSTimeInterval)delay, ...{
+//    INIT_INV(delay, );
+//    [inv retainArguments];
+//    [inv performSelector:@selector(invoke) withObject:nil afterDelay:delay];
+//}
 
-- (id)performSelectorWithArgsOnMainThread:(SEL)sel waitUntilDone:(BOOL)wait, ...{
-    INIT_INV(wait, nil);
-    if (!wait) [inv retainArguments];
-    [inv performSelectorOnMainThread:@selector(invoke) withObject:nil waitUntilDone:wait];
-    return wait ? [NSObject getReturnFromInv:inv withSig:sig] : nil;
-}
+//- (id)performSelectorWithArgsOnMainThread:(SEL)sel waitUntilDone:(BOOL)wait, ...{
+//    INIT_INV(wait, nil);
+//    if (!wait) [inv retainArguments];
+//    [inv performSelectorOnMainThread:@selector(invoke) withObject:nil waitUntilDone:wait];
+//    return wait ? [NSObject getReturnFromInv:inv withSig:sig] : nil;
+//}
 
-- (id)performSelectorWithArgs:(SEL)sel onThread:(NSThread *)thr waitUntilDone:(BOOL)wait, ...{
-    INIT_INV(wait, nil);
-    if (!wait) [inv retainArguments];
-    [inv performSelector:@selector(invoke) onThread:thr withObject:nil waitUntilDone:wait];
-    return wait ? [NSObject getReturnFromInv:inv withSig:sig] : nil;
-}
+//- (id)performSelectorWithArgs:(SEL)sel onThread:(NSThread *)thr waitUntilDone:(BOOL)wait, ...{
+//    INIT_INV(wait, nil);
+//    if (!wait) [inv retainArguments];
+//    [inv performSelector:@selector(invoke) onThread:thr withObject:nil waitUntilDone:wait];
+//    return wait ? [NSObject getReturnFromInv:inv withSig:sig] : nil;
+//}
 
-- (void)performSelectorWithArgsInBackground:(SEL)sel, ...{
-    INIT_INV(sel, );
-    [inv retainArguments];
-    [inv performSelectorInBackground:@selector(invoke) withObject:nil];
-}
+//- (void)performSelectorWithArgsInBackground:(SEL)sel, ...{
+//    INIT_INV(sel, );
+//    [inv retainArguments];
+//    [inv performSelectorInBackground:@selector(invoke) withObject:nil];
+//}
 
 #undef INIT_INV
 

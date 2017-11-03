@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
-  s.name         = 'YYKitPte'
+  s.name         = "YYKit"
   s.summary      = 'A collection of iOS components.'
   s.version      = '1.1.0'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'ckyYU' => 'admin@uusuiyue.com' }
-  s.social_media_url = 'http:/skyofdream.com'
+  s.social_media_url = 'http://skyofdream.com'
   s.homepage     = 'https://github.com/githubxixiwa/YYKit'
   s.platform     = :ios, '6.0'
   s.ios.deployment_target = '6.0'
