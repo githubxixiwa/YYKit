@@ -18,36 +18,36 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"YYKit Example";
-    self.titles = @[].mutableCopy;
-    self.classNames = @[].mutableCopy;
-    [self addCell:@"Model" class:@"YYModelExample"];
-    [self addCell:@"Image" class:@"YYImageExample"];
-    [self addCell:@"Text" class:@"YYTextExample"];
-//    [self addCell:@"Utility" class:@"YYUtilityExample"];
-    [self addCell:@"Feed List Demo" class:@"YYFeedListExample"];
-    [self.tableView reloadData];
+//    self.title = @"YYKit Example";
+//    self.titles = @[].mutableCopy;
+//    self.classNames = @[].mutableCopy;
+//    [self addCell:@"Model" class:@"YYModelExample"];
+//    [self addCell:@"Image" class:@"YYImageExample"];
+//    [self addCell:@"Text" class:@"YYTextExample"];
+////    [self addCell:@"Utility" class:@"YYUtilityExample"];
+//    [self addCell:@"Feed List Demo" class:@"YYFeedListExample"];
+//    [self.tableView reloadData];
     
     //[self log];
 }
 
 - (void)log {
-    printf("all:%.2f MB   used:%.2f MB   free:%.2f MB   active:%.2f MB  inactive:%.2f MB  wird:%.2f MB  purgable:%.2f MB\n",
-           [UIDevice currentDevice].memoryTotal / 1024.0 / 1024.0,
-           [UIDevice currentDevice].memoryUsed / 1024.0 / 1024.0,
-           [UIDevice currentDevice].memoryFree / 1024.0 / 1024.0,
-           [UIDevice currentDevice].memoryActive / 1024.0 / 1024.0,
-           [UIDevice currentDevice].memoryInactive / 1024.0 / 1024.0,
-           [UIDevice currentDevice].memoryWired / 1024.0 / 1024.0,
-           [UIDevice currentDevice].memoryPurgable / 1024.0 / 1024.0);
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [self log];
-    });
+//    printf("all:%.2f MB   used:%.2f MB   free:%.2f MB   active:%.2f MB  inactive:%.2f MB  wird:%.2f MB  purgable:%.2f MB\n",
+//           [UIDevice currentDevice].memoryTotal / 1024.0 / 1024.0,
+//           [UIDevice currentDevice].memoryUsed / 1024.0 / 1024.0,
+//           [UIDevice currentDevice].memoryFree / 1024.0 / 1024.0,
+//           [UIDevice currentDevice].memoryActive / 1024.0 / 1024.0,
+//           [UIDevice currentDevice].memoryInactive / 1024.0 / 1024.0,
+//           [UIDevice currentDevice].memoryWired / 1024.0 / 1024.0,
+//           [UIDevice currentDevice].memoryPurgable / 1024.0 / 1024.0);
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//        [self log];
+//    });
 }
 
 - (void)addCell:(NSString *)title class:(NSString *)className {
-    [self.titles addObject:title];
-    [self.classNames addObject:className];
+//    [self.titles addObject:title];
+//    [self.classNames addObject:className];
 }
 
 #pragma mark - Table view data source
