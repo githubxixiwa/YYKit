@@ -24,8 +24,6 @@ FOUNDATION_EXPORT const unsigned char YYKitVersionString[];
 #import <YYKit/NSData+YYAdd.h>
 #import <YYKit/NSArray+YYAdd.h>
 #import <YYKit/NSDictionary+YYAdd.h>
-#import <YYKit/NSNotificationCenter+YYAdd.h>
-#import <YYKit/NSTimer+YYAdd.h>
 #import <YYKit/NSBundle+YYAdd.h>
 #import <YYKit/NSThread+YYAdd.h>
 
@@ -112,7 +110,6 @@ FOUNDATION_EXPORT const unsigned char YYKitVersionString[];
 #import "NSData+YYAdd.h"
 #import "NSArray+YYAdd.h"
 #import "NSDictionary+YYAdd.h"
-#import "NSTimer+YYAdd.h"
 #import "NSBundle+YYAdd.h"
 #import "NSThread+YYAdd.h"
 
