@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EF19AE6201C545800F8DFD7 /* NSDate+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF19AE4201C545800F8DFD7 /* NSDate+YYAdd.m */; };
 		D9067E371B9AD7AD00F346EB /* ResourceWeibo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D9067E361B9AD7AC00F346EB /* ResourceWeibo.bundle */; };
 		D90F52241B7860E800C9B465 /* pia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D90F52211B7860E800C9B465 /* pia@2x.png */; };
 		D91A995B1B5ACF2A00EF3A3E /* niconiconi@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = D91A995A1B5ACF2A00EF3A3E /* niconiconi@2x.gif */; };
@@ -136,6 +137,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7EF19AE4201C545800F8DFD7 /* NSDate+YYAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YYAdd.m"; sourceTree = "<group>"; };
+		7EF19AE5201C545800F8DFD7 /* NSDate+YYAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+YYAdd.h"; sourceTree = "<group>"; };
 		D9067E361B9AD7AC00F346EB /* ResourceWeibo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ResourceWeibo.bundle; sourceTree = "<group>"; };
 		D90F52211B7860E800C9B465 /* pia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pia@2x.png"; sourceTree = "<group>"; };
 		D91A995A1B5ACF2A00EF3A3E /* niconiconi@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "niconiconi@2x.gif"; sourceTree = "<group>"; };
@@ -521,6 +524,8 @@
 				D9B25FB91BEE79370038C00A /* NSString+YYAdd.m */,
 				D9B25FB01BEE79370038C00A /* NSNumber+YYAdd.h */,
 				D9B25FB11BEE79370038C00A /* NSNumber+YYAdd.m */,
+				7EF19AE5201C545800F8DFD7 /* NSDate+YYAdd.h */,
+				7EF19AE4201C545800F8DFD7 /* NSDate+YYAdd.m */,
 				D9B25FA61BEE79370038C00A /* NSData+YYAdd.h */,
 				D9B25FA71BEE79370038C00A /* NSData+YYAdd.m */,
 				D9B25FA21BEE79370038C00A /* NSArray+YYAdd.h */,
@@ -855,6 +860,7 @@
 				D9B260891BEE79370038C00A /* YYTextSelectionView.m in Sources */,
 				D9B2609C1BEE79370038C00A /* YYThreadSafeArray.m in Sources */,
 				D9B260671BEE79370038C00A /* UIGestureRecognizer+YYAdd.m in Sources */,
+				7EF19AE6201C545800F8DFD7 /* NSDate+YYAdd.m in Sources */,
 				D9B260681BEE79370038C00A /* UIImage+YYAdd.m in Sources */,
 				D9B260A01BEE79370038C00A /* YYWeakProxy.m in Sources */,
 				D9B260951BEE79370038C00A /* YYAsyncLayer.m in Sources */,

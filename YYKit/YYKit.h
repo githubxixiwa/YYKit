@@ -22,6 +22,7 @@ FOUNDATION_EXPORT const unsigned char YYKitVersionString[];
 #import <YYKit/NSString+YYAdd.h>
 #import <YYKit/NSNumber+YYAdd.h>
 #import <YYKit/NSData+YYAdd.h>
+#import <YYKit/NSDate+YYAdd.h>
 #import <YYKit/NSArray+YYAdd.h>
 #import <YYKit/NSDictionary+YYAdd.h>
 #import <YYKit/NSBundle+YYAdd.h>
@@ -108,6 +109,7 @@ FOUNDATION_EXPORT const unsigned char YYKitVersionString[];
 #import "NSString+YYAdd.h"
 #import "NSNumber+YYAdd.h"
 #import "NSData+YYAdd.h"
+#import "NSDate+YYAdd.h"
 #import "NSArray+YYAdd.h"
 #import "NSDictionary+YYAdd.h"
 #import "NSBundle+YYAdd.h"
