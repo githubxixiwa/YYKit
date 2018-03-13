@@ -5,10 +5,10 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'ckyYU' => 'admin@uusuiyue.com' }
   s.social_media_url = 'http://skyofdream.com'
-  s.homepage     = 'https://github.com/githubxixiwa/YYKit'
+  s.homepage     = 'https://gitee.com/CKYFREE'
   s.platform     = :ios, '6.0'
   s.ios.deployment_target = '6.0'
-  s.source       = { :git => 'https://github.com/githubxixiwa/YYKit.git', :branch => 'master' } #:tag => s.version.to_s }
+  s.source       = { :git => 'https://gitee.com/CKYFREE/YYKit.git', :branch => 'master' } #:tag => s.version.to_s }
   
   s.requires_arc = true
   s.source_files = 'YYKit/**/*.{h,m}'
