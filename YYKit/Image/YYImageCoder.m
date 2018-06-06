@@ -2432,7 +2432,7 @@ CGImageRef YYCGImageCreateWithWebPData(CFDataRef webpData,
             NSMutableDictionary *frameProperty = NULL;
             if (_type == YYImageTypeGIF && count > 1) {
                 frameProperty = [@{(NSString *)kCGImagePropertyGIFDictionary : @{(NSString *) kCGImagePropertyGIFDelayTime:_durations[i]}} mutableCopy];
-                [frameProperty setObject:@(true) forKey:(__bridge id)kCGImagePropertyGIFHasGlobalColorMap];
+//                [frameProperty setObject:@(true) forKey:(__bridge id)kCGImagePropertyGIFHasGlobalColorMap];
             } else {
                 frameProperty = [@{(id)kCGImageDestinationLossyCompressionQuality : @(_quality)} mutableCopy];
             }
